@@ -23,7 +23,7 @@ namespace WebAPI_REST
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-
+            // Test 
             config.Routes.MapHttpRoute(
                 name: "myRoute",
                 routeTemplate:"api/{controller}/{action}/{year}/{month}/{day}",
